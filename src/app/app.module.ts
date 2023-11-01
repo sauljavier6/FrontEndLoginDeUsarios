@@ -14,6 +14,8 @@ import { ErrorComponent } from './components/error/error.component';
 import { UserEditComponent } from './components/user-edit/user-edit.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoryNewComponent } from './components/category-new/category-new.component';
+import { PostNewComponent } from './components/post-new/post-new.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CategoryNewComponent } from './components/category-new/category-new.com
     HomeComponent,
     ErrorComponent,
     UserEditComponent,
-    CategoryNewComponent
+    CategoryNewComponent,
+    PostNewComponent,
+    PostDetailComponent
   ],
   imports: [
     BrowserModule, 

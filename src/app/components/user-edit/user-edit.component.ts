@@ -45,6 +45,7 @@ export class UserEditComponent implements OnInit{
     this.token = this._userService.getToken();
     this.url=global.url;
 
+
     //rellenar objeto usuario
     this.user = new User(
       this.identity.sub, 

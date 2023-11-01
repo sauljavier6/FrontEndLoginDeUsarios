@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { UserEditComponent } from './components/user-edit/user-edit.component';
 import { CategoryNewComponent } from './components/category-new/category-new.component';
+import { PostNewComponent} from './components/post-new/post-new.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
 
 //definir las rutas
 const appRoutes: Routes = [
@@ -18,6 +20,8 @@ const appRoutes: Routes = [
     {path: 'registro', component: RegisterComponent},
     {path: 'ajustes', component: UserEditComponent},
     {path: 'crear-categoria', component: CategoryNewComponent},
+    {path: 'crear-entrada', component: PostNewComponent},
+    {path: 'entrada/:id', component: PostDetailComponent},
     {path: '**', component: ErrorComponent}
 ];
 
